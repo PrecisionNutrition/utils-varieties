@@ -4,7 +4,8 @@
   "description": "Utility classes to handle variety colours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "easy-publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
