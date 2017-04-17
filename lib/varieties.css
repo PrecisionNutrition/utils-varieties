@@ -5,6 +5,7 @@
 
 
 :root {
+  --vc-celebration: #ff8263;
   --vc-lesson: #00BBE3;
   --vc-habit: #00A15F;
   --vc-form: #D75FB1;
@@ -21,8 +22,8 @@
 }
 
 @each $variety, $bumpyName
-  in (lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop),
-     (Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop) {
+  in (celebration, lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop),
+     (Celebration, Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop) {
 
   .u-colour$(bumpyName) {
     color: var(--vc-$(variety)) !important;
