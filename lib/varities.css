@@ -1,0 +1,42 @@
+/**
+ * @define utilities
+ * Variety colour utilities
+ */
+
+
+:root {
+  --vc-lesson: #00BBE3;
+  --vc-habit: #00A15F;
+  --vc-form: #D75FB1;
+  --vc-review: #7D92D7;
+  --vc-intake: #7E60A3;
+  --vc-exam: #007B61;
+  --vc-caseStudy: #25769A;
+  --vc-measurement: #25769A;
+  --vc-quiz: #4578C0;
+  --vc-workout: #4578C0;
+  --vc-feedback: #EF9736;
+  --vc-conversation: #536487;
+  --vc-workshop: #AC80CB;
+}
+
+@each $variety, $bumpyName
+  in (lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop),
+     (Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop) {
+
+  .u-colour$(bumpyName) {
+    color: var(--vc-$(variety)) !important;
+  }
+
+  .u-fill$(bumpyName) {
+    fill: var(--vc-$(variety)) !important;
+  }
+
+  .u-border$(bumpyName) {
+    border-color: var(--vc-$(variety)) !important;
+  }
+
+  .u-background$(bumpyName) {
+    background-color: var(--vc-$(variety)) !important;
+  }
+}

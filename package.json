@@ -1,0 +1,19 @@
+{
+  "name": "utils-varieties",
+  "version": "1.0.0",
+  "description": "Utility classes to handle variety colours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrecisionNutrition/utils-varieties.git"
+  },
+  "author": "The fine folks at Precision Nutrition",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrecisionNutrition/utils-varieties/issues"
+  },
+  "homepage": "https://github.com/PrecisionNutrition/utils-varieties#readme"
+}
