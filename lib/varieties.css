@@ -21,20 +21,20 @@
   --vc-workshop: #AC80CB;
 
   /* Completed/Archived State */
-  --vc-celebration-completed: color(var(--vc-celebration) a(60%));
-  --vc-lesson-completed: color(var(--vc-lesson) a(60%));
-  --vc-habit-completed: color(var(--vc-habit) a(60%));
-  --vc-form-completed: color(var(--vc-form) a(60%));
-  --vc-review-completed: color(var(--vc-review) a(60%));
-  --vc-intake-completed: color(var(--vc-intake) a(60%));
-  --vc-exam-completed: color(var(--vc-exam) a(60%));
-  --vc-caseStudy-completed: color(var(--vc-caseStudy) a(60%));
-  --vc-measurement-completed: color(var(--vc-measurement) a(60%));
-  --vc-quiz-completed: color(var(--vc-quiz) a(60%));
-  --vc-workout-completed: color(var(--vc-workout) a(60%));
-  --vc-feedback-completed: color(var(--vc-feedback) a(60%));
-  --vc-conversation-completed: color(var(--vc-conversation) a(60%));
-  --vc-workshop-completed: color(var(--vc-workshop) a(60%));
+  --vc-celebration-completed: color(var(--vc-celebration) tint(55%));
+  --vc-lesson-completed: color(var(--vc-lesson) tint(55%));
+  --vc-habit-completed: color(var(--vc-habit) tint(55%));
+  --vc-form-completed: color(var(--vc-form) tint(55%));
+  --vc-review-completed: color(var(--vc-review) tint(55%));
+  --vc-intake-completed: color(var(--vc-intake) tint(55%));
+  --vc-exam-completed: color(var(--vc-exam) tint(55%));
+  --vc-caseStudy-completed: color(var(--vc-caseStudy) tint(55%));
+  --vc-measurement-completed: color(var(--vc-measurement) tint(55%));
+  --vc-quiz-completed: color(var(--vc-quiz) tint(55%));
+  --vc-workout-completed: color(var(--vc-workout) tint(55%));
+  --vc-feedback-completed: color(var(--vc-feedback) tint(55%));
+  --vc-conversation-completed: color(var(--vc-conversation) tint(55%));
+  --vc-workshop-completed: color(var(--vc-workshop) tint(55%));
 }
 
 @each $variety, $bumpyName
