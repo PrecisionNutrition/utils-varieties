@@ -5,36 +5,66 @@
 
 
 :root {
-  --vc-celebration: #ff8263;
-  --vc-lesson: #00BBE3;
-  --vc-habit: #00A15F;
+  --vc-celebration: #ff6196;
+  --vc-lesson: #00c853;
+  --vc-habit: #00b8f0;
   --vc-form: #D75FB1;
   --vc-review: #7D92D7;
-  --vc-intake: #7E60A3;
-  --vc-exam: #007B61;
-  --vc-caseStudy: #25769A;
-  --vc-measurement: #25769A;
-  --vc-quiz: #4578C0;
-  --vc-workout: #4578C0;
-  --vc-feedback: #EF9736;
-  --vc-conversation: #536487;
-  --vc-workshop: #AC80CB;
+  --vc-intake: #9f5ae5;
+  --vc-exam: #ff6196;
+  --vc-caseStudy: #00c853;
+  --vc-measurement: #ff6196;
+  --vc-quiz: #ff6196;
+  --vc-workout: #ff785d;
+  --vc-feedback: #9f5ae5;
+  --vc-conversation: #9f5ae5;
+  --vc-workshop: #00c853;
+
+  --vc-celebration-lighter: color-mod(var(--vc-celebration) tint(75%));
+  --vc-lesson-lighter: color-mod(var(--vc-lesson) tint(75%));
+  --vc-habit-lighter: color-mod(var(--vc-habit) tint(75%));
+  --vc-form-lighter: color-mod(var(--vc-form) tint(75%));
+  --vc-review-lighter: color-mod(var(--vc-review) tint(75%));
+  --vc-intake-lighter: color-mod(var(--vc-intake) tint(75%));
+  --vc-exam-lighter: color-mod(var(--vc-exam) tint(75%));
+  --vc-caseStudy-lighter: color-mod(var(--vc-caseStudy) tint(75%));
+  --vc-measurement-lighter: color-mod(var(--vc-measurement) tint(75%));
+  --vc-quiz-lighter: color-mod(var(--vc-quiz) tint(75%));
+  --vc-workout-lighter: color-mod(var(--vc-workout) tint(75%));
+  --vc-feedback-lighter: color-mod(var(--vc-feedback) tint(75%));
+  --vc-conversation-lighter: color-mod(var(--vc-conversation) tint(75%));
+  --vc-workshop-lighter: color-mod(var(--vc-workshop) tint(75%));
+
+  --vc-celebration-lightest: color-mod(var(--vc-celebration) tint(90%));
+  --vc-lesson-lightest: color-mod(var(--vc-lesson) tint(90%));
+  --vc-habit-lightest: color-mod(var(--vc-habit) tint(90%));
+  --vc-form-lightest: color-mod(var(--vc-form) tint(90%));
+  --vc-review-lightest: color-mod(var(--vc-review) tint(90%));
+  --vc-intake-lightest: color-mod(var(--vc-intake) tint(90%));
+  --vc-exam-lightest: color-mod(var(--vc-exam) tint(90%));
+  --vc-caseStudy-lightest: color-mod(var(--vc-caseStudy) tint(90%));
+  --vc-measurement-lightest: color-mod(var(--vc-measurement) tint(90%));
+  --vc-quiz-lightest: color-mod(var(--vc-quiz) tint(90%));
+  --vc-workout-lightest: color-mod(var(--vc-workout) tint(90%));
+  --vc-feedback-lightest: color-mod(var(--vc-feedback) tint(90%));
+  --vc-conversation-lightest: color-mod(var(--vc-conversation) tint(90%));
+  --vc-workshop-lightest: color-mod(var(--vc-workshop) tint(90%));
 
   /* Completed/Archived State */
-  --vc-celebration-completed: color-mod(var(--vc-celebration) tint(55%));
-  --vc-lesson-completed: color-mod(var(--vc-lesson) tint(55%));
-  --vc-habit-completed: color-mod(var(--vc-habit) tint(55%));
-  --vc-form-completed: color-mod(var(--vc-form) tint(55%));
-  --vc-review-completed: color-mod(var(--vc-review) tint(55%));
-  --vc-intake-completed: color-mod(var(--vc-intake) tint(55%));
-  --vc-exam-completed: color-mod(var(--vc-exam) tint(55%));
-  --vc-caseStudy-completed: color-mod(var(--vc-caseStudy) tint(55%));
-  --vc-measurement-completed: color-mod(var(--vc-measurement) tint(55%));
-  --vc-quiz-completed: color-mod(var(--vc-quiz) tint(55%));
-  --vc-workout-completed: color-mod(var(--vc-workout) tint(55%));
-  --vc-feedback-completed: color-mod(var(--vc-feedback) tint(55%));
-  --vc-conversation-completed: color-mod(var(--vc-conversation) tint(55%));
-  --vc-workshop-completed: color-mod(var(--vc-workshop) tint(55%));
+  --vc-celebration-completed: color-mod(var(--vc-celebration) tint(95%));
+  --vc-lesson-completed: color-mod(var(--vc-lesson) tint(95%));
+  --vc-habit-completed: color-mod(var(--vc-habit) tint(95%));
+  --vc-form-completed: color-mod(var(--vc-form) tint(95%));
+  --vc-review-completed: color-mod(var(--vc-review) tint(95%));
+  --vc-intake-completed: color-mod(var(--vc-intake) tint(95%));
+  --vc-exam-completed: color-mod(var(--vc-exam) tint(95%));
+  --vc-caseStudy-completed: color-mod(var(--vc-caseStudy) tint(95%));
+  --vc-measurement-completed: color-mod(var(--vc-measurement) tint(95%));
+  --vc-quiz-completed: color-mod(var(--vc-quiz) tint(95%));
+  --vc-workout-completed: color-mod(var(--vc-workout) tint(95%));
+  --vc-feedback-completed: color-mod(var(--vc-feedback) tint(95%));
+  --vc-conversation-completed: color-mod(var(--vc-conversation) tint(95%));
+  --vc-workshop-completed: color-mod(var(--vc-workshop) tint(95%));
 }
 
 @each $variety, $bumpyName
