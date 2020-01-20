@@ -19,7 +19,7 @@
   --vc-feedback: #9f5ae5;
   --vc-conversation: #9f5ae5;
   --vc-workshop: #00c853;
-  --vc-foodJournal: #ff6196;
+  --vc-journal: #ff6196;
 
   --vc-celebration-lighter: color-mod(var(--vc-celebration) tint(75%));
   --vc-lesson-lighter: color-mod(var(--vc-lesson) tint(75%));
@@ -35,7 +35,7 @@
   --vc-feedback-lighter: color-mod(var(--vc-feedback) tint(75%));
   --vc-conversation-lighter: color-mod(var(--vc-conversation) tint(75%));
   --vc-workshop-lighter: color-mod(var(--vc-workshop) tint(75%));
-  --vc-foodJournal-lighter: color-mod(var(--vc-foodJournal) tint(75%));
+  --vc-journal-lighter: color-mod(var(--vc-journal) tint(75%));
 
   --vc-celebration-lightest: color-mod(var(--vc-celebration) tint(90%));
   --vc-lesson-lightest: color-mod(var(--vc-lesson) tint(90%));
@@ -51,7 +51,7 @@
   --vc-feedback-lightest: color-mod(var(--vc-feedback) tint(90%));
   --vc-conversation-lightest: color-mod(var(--vc-conversation) tint(90%));
   --vc-workshop-lightest: color-mod(var(--vc-workshop) tint(90%));
-  --vc-foodJournal-lightest: color-mod(var(--vc-foodJournal) tint(90%));
+  --vc-journal-lightest: color-mod(var(--vc-journal) tint(90%));
 
   /* Completed/Archived State */
   --vc-celebration-completed: color-mod(var(--vc-celebration) tint(95%));
@@ -68,12 +68,12 @@
   --vc-feedback-completed: color-mod(var(--vc-feedback) tint(95%));
   --vc-conversation-completed: color-mod(var(--vc-conversation) tint(95%));
   --vc-workshop-completed: color-mod(var(--vc-workshop) tint(95%));
-  --vc-foodJournal-completed: color-mod(var(--vc-foodJournal) tint(95%));
+  --vc-journal-completed: color-mod(var(--vc-journal) tint(95%));
 }
 
 @each $variety, $bumpyName
-  in (celebration, lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop, foodJournal),
-     (Celebration, Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop, FoodJournal) {
+  in (celebration, lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop, journal),
+     (Celebration, Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop, Journal) {
 
   .u-colour$(bumpyName) {
     color: var(--vc-$(variety)) !important;
