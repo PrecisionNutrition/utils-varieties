@@ -20,6 +20,7 @@
   --vc-conversation: #9f5ae5;
   --vc-workshop: #00c853;
   --vc-journal: #ff6196;
+  --vc-study: #00b8f0;
 
   --vc-celebration-lighter: color-mod(var(--vc-celebration) tint(75%));
   --vc-lesson-lighter: color-mod(var(--vc-lesson) tint(75%));
@@ -36,6 +37,7 @@
   --vc-conversation-lighter: color-mod(var(--vc-conversation) tint(75%));
   --vc-workshop-lighter: color-mod(var(--vc-workshop) tint(75%));
   --vc-journal-lighter: color-mod(var(--vc-journal) tint(75%));
+  --vc-study-lighter: color-mod(var(--vc-study) tint(75%));
 
   --vc-celebration-lightest: color-mod(var(--vc-celebration) tint(90%));
   --vc-lesson-lightest: color-mod(var(--vc-lesson) tint(90%));
@@ -52,6 +54,7 @@
   --vc-conversation-lightest: color-mod(var(--vc-conversation) tint(90%));
   --vc-workshop-lightest: color-mod(var(--vc-workshop) tint(90%));
   --vc-journal-lightest: color-mod(var(--vc-journal) tint(90%));
+  --vc-study-lightest: color-mod(var(--vc-study) tint(90%));
 
   /* Completed/Archived State */
   --vc-celebration-completed: color-mod(var(--vc-celebration) tint(95%));
@@ -69,11 +72,12 @@
   --vc-conversation-completed: color-mod(var(--vc-conversation) tint(95%));
   --vc-workshop-completed: color-mod(var(--vc-workshop) tint(95%));
   --vc-journal-completed: color-mod(var(--vc-journal) tint(95%));
+  --vc-study-completed: color-mod(var(--vc-study) tint(95%));
 }
 
 @each $variety, $bumpyName
-  in (celebration, lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop, journal),
-     (Celebration, Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop, Journal) {
+  in (celebration, lesson, form, review, intake, exam, caseStudy, measurement, quiz, workout, habit, feedback, conversation, workshop, journal, study),
+     (Celebration, Lesson, Form, Review, Intake, Exam, CaseStudy, Measurement, Quiz, Workout, Habit, Feedback, Conversation, Workshop, Journal, Study) {
 
   .u-colour$(bumpyName) {
     color: var(--vc-$(variety)) !important;
