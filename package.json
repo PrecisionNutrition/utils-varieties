@@ -1,6 +1,6 @@
 {
   "name": "@precision-nutrition/utils-varieties",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "description": "Utility classes to handle variety colours",
   "main": "index.js",
   "scripts": {
